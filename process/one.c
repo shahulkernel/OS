@@ -18,8 +18,8 @@ int main( int argc, char * argv[])
 	//a = va_arg(list, int);
 	//b = va_arg(list, int);
 	
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
+	a = atoi(argv[2]);
+	b = atoi(argv[3]);
 
 	printf("\nthis is ONE prgram sum %d = ",a+b);
 	return 0 ;
