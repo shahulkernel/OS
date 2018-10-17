@@ -1,12 +1,26 @@
 
 #include<stdio.h>
+#include<stdarg.h>
 
 
 
-
-int main()
+int main( int argc, char * argv[])
 {
 
-	printf("\nthis is ONE prgram");
+	int a, b;// =0;
+	va_list list;
+
+
+//	va_start(list,argc);
+
+	//va_arg(list,;
+
+	//a = va_arg(list, int);
+	//b = va_arg(list, int);
+	
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+
+	printf("\nthis is ONE prgram sum %d = ",a+b);
 	return 0 ;
 }
